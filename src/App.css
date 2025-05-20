@@ -1,0 +1,81 @@
+.app {
+  box-shadow: 1px 1px 10px lightgray;
+  height: 100%;
+  width: 350px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px 90px;
+  align-items: center;
+}
+h1 {
+  margin-bottom: 20px;
+  color: green;
+}
+form {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 20px;
+}
+form input {
+  height: 40px;
+  width: 250px;
+  outline: none;
+  border-radius: 0px;
+  border-color: green;
+  padding: 0 20px;
+}
+form input::placeholder {
+  padding: 0px 20px;
+}
+form button {
+  height: 40px;
+  width: 60px;
+  color: white;
+  background-color: green;
+  border: none;
+  font-weight: bold;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  cursor: pointer;
+}
+ul {
+  justify-content: space-between;
+  list-style-type: none;
+  color: green;
+  margin-bottom: 50px;
+}
+
+ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0 10px;
+  border-bottom: 1px solid rgb(139, 197, 139);
+  margin-bottom: 20px;
+}
+
+.sellCheck {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+}
+.sellCheck input[type="checkbox"] {
+  border-color: green;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn button {
+  border-radius: 6px;
+  padding: 10px 25px;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer;
+  border: none;
+}
