@@ -58,7 +58,7 @@ ul li {
 .sellCheck {
   display: flex;
   justify-content: start;
-  gap: 20px;
+  gap: 40px;
 }
 .sellCheck input[type="checkbox"] {
   border-color: green;
@@ -78,4 +78,8 @@ ul li {
   text-transform: capitalize;
   cursor: pointer;
   border: none;
+}
+.completed{
+  text-decoration:line-through ;
+  color: gray;
 }
