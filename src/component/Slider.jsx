@@ -1,4 +1,4 @@
-import { SwiperSlide } from "swiper/react";
+// import { SwiperSlide } from "swiper/react";
 
 
 import { Swiper, SwiperSlide } from 'swiper/react';
