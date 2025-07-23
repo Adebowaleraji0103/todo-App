@@ -4,7 +4,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
-const SliderComponent = () => {
+const Slider = () => {
   return (
     <Swiper
       spaceBetween={50}
@@ -21,4 +21,4 @@ const SliderComponent = () => {
   );
 };
 
-export default SliderComponent;
+export default Slider;

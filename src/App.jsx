@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import "./App.css";
 import { createWebSocketModuleRunnerTransport } from "vite/module-runner";
-import SliderComponent from "./component/Slider";
+import Slider from "./component/Slider";
 
 export default function App() {
   const [task, setTask] = useState("");
@@ -46,7 +46,6 @@ export default function App() {
   }
 
   return (
-    <div>
       <div className="app">
         <h1>ToDo App</h1>
         <div className="wrapper">
@@ -95,7 +94,6 @@ export default function App() {
           </div>
         </div>
       </div>
-      <SliderComponent />
-    </div>
+      <Slider />
   );
 }
