@@ -12,9 +12,11 @@ const SliderComponent = () => {
       loop={true}
       autoplay={{ delay: 3000 }}
     >
-      <SwiperSlide><img src="/img1.jpg" alt="slide 1" /></SwiperSlide>
-      <SwiperSlide><img src="/img2.jpg" alt="slide 2" /></SwiperSlide>
-      <SwiperSlide><img src="/img3.jpg" alt="slide 3" /></SwiperSlide>
+      <SwiperSlide><img src="/Bag.png" alt="slide 1" /></SwiperSlide>
+      <SwiperSlide><img src="/belt.png" alt="slide 2" /></SwiperSlide>
+      <SwiperSlide><img src="/canvass.png" alt="slide 3" /></SwiperSlide>
+      <SwiperSlide><img src="/Hat.png" alt="slide 3" /></SwiperSlide>
+      
     </Swiper>
   );
 };
