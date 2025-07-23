@@ -1,7 +1,6 @@
 import { useRef, useState } from "react";
 import "./App.css";
 import { createWebSocketModuleRunnerTransport } from "vite/module-runner";
-import Slider from "./component/Slider";
 
 export default function App() {
   const [task, setTask] = useState("");
@@ -93,7 +92,6 @@ export default function App() {
             <button onClick={() => setAllTasks([])}>clear all</button>
           </div>
         </div>
-        <Slider />
       </div>
   );
 }
