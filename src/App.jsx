@@ -93,7 +93,7 @@ export default function App() {
             <button onClick={() => setAllTasks([])}>clear all</button>
           </div>
         </div>
+        <Slider />
       </div>
-      <Slider />
   );
 }
