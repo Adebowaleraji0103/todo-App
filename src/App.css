@@ -40,6 +40,13 @@ form button {
   border-bottom-right-radius: 8px;
   cursor: pointer;
 }
+
+.taskContent{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
 ul {
   gap: 10px;
   justify-content: space-between;

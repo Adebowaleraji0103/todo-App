@@ -61,7 +61,7 @@ export default function App() {
         <ul>
           {allTasks.map((todo) => (
             <li className="taskList" key={todo.id}>
-              <div>
+              <div className="taskContent">
                 <input
                   type="checkbox"
                   onChange={() => toggleCompleted(todo.id)}
