@@ -79,6 +79,9 @@ ul li {
   cursor: pointer;
   border: none;
 }
+.btn button:hover{
+background-color: rgb(8, 87, 8);
+}
 .completed{
   text-decoration:line-through ;
   color: gray;
