@@ -41,6 +41,7 @@ form button {
   cursor: pointer;
 }
 ul {
+  display: flex;
   justify-content: space-between;
   list-style-type: none;
   color: green;
