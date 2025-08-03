@@ -88,7 +88,7 @@ export default function App() {
           ))}
         </ul>
 
-        <div className="btn">
+        <div className="btn ">
           <button
             onClick={() => {
               setAllTasks([]); // ✅ clears tasks
